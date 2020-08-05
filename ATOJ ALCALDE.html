@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #4E5869;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Selectores de elemento/etiqueta ~~ */
+ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
+	padding-right: 15px;
+	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
+}
+a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
+	border: none;
+}
+
+/* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	text-decoration: none;
+}
+
+/* ~~ este contenedor rodea a todas las demás divs, lo que les asigna su anchura basada en porcentaje ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* puede que sea conveniente una anchura máxima (max-width) para evitar que este diseño sea demasiado ancho en un monitor grande. Esto mantiene una longitud de línea más legible. IE6 no respeta esta declaración. */
+	min-width: 780px;/* puede que sea conveniente una anchura mínima (min-width) para evitar que este diseño sea demasiado estrecho. Esto permite que la longitud de línea sea más legible en las columnas laterales. IE6 no respeta esta declaración. */
+	background-color: #FFF;
+	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño. No es necesario si establece la anchura de .container en el 100%. */
+}
+
+/* ~~no se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. Contiene un marcador de posición de imagen que debe sustituirse por su propio logotipo vinculado~~ */
+.header {
+	background-color: #6F7D94;
+}
+
+/* ~~ Esta es la información de diseño. ~~ 
+
+1) El relleno sólo se sitúa en la parte superior y/o inferior de la div. Los elementos situados dentro de esta div tienen relleno a los lados. Esto le ahorra las "matemáticas de modelo de cuadro". Recuerde que si añade relleno o borde lateral a la div propiamente dicha, éste se añadirá a la anchura que defina para crear la anchura *total*. También puede optar por eliminar el relleno del elemento en la div y colocar una segunda div dentro de ésta sin anchura y el relleno necesario para el diseño deseado.
+
+*/
+.content {
+	padding: 10px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ~~ Este selector agrupado da espacio a las listas del área de .content ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* este relleno reproduce en espejo el relleno derecho de la regla de encabezados y de párrafo incluida más arriba. El relleno se ha colocado en la parte inferior para que el espacio existente entre otros elementos de la lista y a la izquierda cree la sangría. Estos pueden ajustarse como se desee. */
+}
+
+/* ~~ El pie de página ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #6F7D94;
+}
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si #footer se elimina o se saca fuera de #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header"><img src="ATOJ ALCALDE.jpg" width="203" height="138" /><!-- end .header --> <strong>DANZA ATOJ ALCALDE</strong></div>
+  <div class="content">
+    <h3 class="container"><strong>Alegoría de la siembra<br />
+      La danza Atoj Alcalde, que representa el mito de la Mama Raywana, ha sido recientemente declarada Patrimonio Cultural de la Nación. Aquí su historia.</strong></h3>
+    <h3 class="container"><strong><br />
+      Por Antonio Muñoz Monge<br />
+      El mito y el cuento popular anteceden, según los estudiosos, a la historia. El pueblo incaico fue especialmente propenso a contarse fábulas y leyendas. ( Raúl Porras Barrenechea, en Mito, Tradición e Historia del Perú).<br />
+      Con motivo de Fiestas Patrias se representa la danza Atoj Alcalde el 26 de julio en el centro poblado El Porvenir, y el 27 y 28 en desfile y concurso junto a las danzas típicas de los otros centros poblados del distrito, perteneciente a la provincia de Huamalíes, Huánuco. El Porvenir sabrá dar a esta danza contenidos propios creando la versión Atoq Alcalde, en base a su propia visión cosmogónica y mítica de la diosa Raywana y la presencia del zorro en sus linderos. La danza relacionada a la agricultura tiene orígenes en narraciones míticas de la cultura Yarovilca (siglos X - XV), de la cual dice descender el cronista indio Guamán Poma de Ayala. Al respecto el historiador Raúl Porras Barrenechea escribe: &quot;El primer hecho desconcertante en la autobiografía de Huamán Poma es que se dice descendiente de una dinastía de los Yarovilcas de Huánuco, señores del Chinchaysuyo, muy anteriores a los Incas y antes por nadie mencionados, de cuya rancia nobleza se ufana el cronista&quot;.<br />
+  <a name="more" id="more"></a>Huamalíes subraya otra particularidad: existen testimonios arqueológicos en construcciones arquitectónicas monumentales de hasta 6 pisos, por lo que se considera a Huamalíes como cuna de los primeros rascacielos de la América Prehispánica.<br />
+  <br />
+      El centro poblado El Porvenir está ubicado a 7 kilómetros al suroeste de la ciudad de Llata y a 3,455 metros sobre el nivel del mar; históricamente pertenece a la cultura Yarovilca. Para llegar de Lima a Llata se toma la vía de la panamericana norte hasta Pativilca, de ahí se sube hasta la laguna Conococha, donde nace el río Santa. Luego se asume la ruta que conduce a la provincia de Chiquián, tierra del legendario bandolero Luis Pardo, para pasar luego por Aquia, Huallanca, La Unión, Pachas, La Libertad, Llata. La otra ruta conocida es la de Antamina, más corta, por ella ingresamos a Poque, Bellabamba, Progreso y Llata.<br />
+  <br />
+      LA REPRESENTACIÓN<br />
+      La danza Atoq Alcalde, expresión de gran interés cultural, es una de las pocas representaciones del universo mítico andino en una fábula de animales: zorro, ukumari (oso) y puma, que compiten por el favor de la Mama Raywana durante la labor de siembra formando una sociedad agrícola motivados por su belleza. Pero solo el zorro, como personaje más activo, gracioso y astuto, gana sus favores personales y hace de alcalde con la ayuda de su alguacil, el waychaw (ave solitaria).<br />
+  <br />
+      Luego acuden de forma caótica, atraídos por los frutos y flores, otros animales: el venado, el gorrión, el picaflor y el zorrillo, lo que desquicia al zorro, pero se sobrepone siempre con la ayuda del waychaw y ejerce autoridad en su calidad de Yaya campo (alcalde vara) concluyendo en una gran armonía.<br />
+  <br />
+      Diversas investigaciones proponen que la danza-representación de la Mama Raywana es una alegoría a la siembra de la papa y el maíz, entendiendo éstos como cultivos sacralizados. Es más, en el quechua local &quot;Raywana&quot; significa &quot;surco&quot;.<br />
+  <br />
+      Algunos textos afirman que Mama Raywana era la diosa principal de la cultura Yarovilca, que dominó la región hacia inicios del segundo milenio de nuestra era, y cuya presencia persiste en construcciones arqueológicas, narraciones míticas y representaciones que se centran en la región Huánuco (provincias de Huamalíes, Lauricocha y Ambo) y se extienden hasta áreas de las regiones de Pasco (provincia Sánchez Carrión) y Lima (Tupicocha), como parte femenina de la pareja originaria de la comunidad.<br />
+  <br />
+      EL MITO<br />
+  </strong>&quot;Upchurkaman, Uchullkuman&quot;: (quechua) &quot;la mordería, la comería&quot;, dice el zorro (atoj) al ver a la bella Mama Raywana, que solitaria pasta su ganado en las altas punas. Un rato después aparecen otros animales que también son seducidos por ella. La inicial rivalidad desaparece para organizarse luego y formar una sociedad agrícola con la finalidad de hacer producir la tierra.<strong><br />
+  <br />
+      Cumpliendo con este acuerdo, los campos se llenan de hermosas flores, con las que se adornan el sombrero y vestido de la mama Raywana. De pronto aparece el picaflor (chiyllaq) atraído por las flores, luego se presentan los gorriones (chankish) escarbando los surcos en busca de alimento. Se suman el maloliente y perverso zorrillo (añas), luego el &quot;pájaro tamborcillo&quot; (tinya pishqo).<br />
+  <br />
+      A todo esto el Atoq, como Yaya Rimac (Alcalde) empieza a descontrolarse en su locura a lo que acude el &quot;ave solitaria&quot; ( waychaw) con su silbido característico, intentando calmarlo. Y es éste quien lo ayuda a llegar a la Mama Raywana, que lo tranquiliza y lo integra a la agrupación fortaleciendo la sociedad de estos animales.<br />
+  <br />
+      El trabajo la señora Gledy Mendoza Canales sustenta ampliamente la originalidad y el contenido simbólico de la Danza-Representación Atoq Alcalde del Centro Poblado El Porvenir, así como su importancia identificadora para la comunidad: Este patrimonio cultural inmaterial, que se transmite de generación en generación, es recreado periódicamente en función de su entorno, su interacción con la naturaleza y su historia, infundiéndoles un sentimiento de identidad y continuidad, contribuyendo así a promover el respeto a la diversidadcultural y la creatividad humana.</strong> </h3>
+    <h3>&nbsp;</h3>
+    <a href="index.html">volver inicio</a></div>
+  <!-- end .container --></div>
+</body>
+</html>
